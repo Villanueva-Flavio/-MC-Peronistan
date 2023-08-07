@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures":{
+        "layer0": "peronistan:item/cd_himno_de_la_nacion_argentina"
+    }
+}

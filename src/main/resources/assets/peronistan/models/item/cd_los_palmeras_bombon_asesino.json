@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures":{
+        "layer0": "peronistan:item/cd_los_palmeras_bombon_asesino"
+    }
+}
