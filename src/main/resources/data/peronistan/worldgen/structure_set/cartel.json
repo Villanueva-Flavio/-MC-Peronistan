@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "peronistan:cartel",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1642136474,
+    "spacing": 16,
+    "separation": 12,
+    "type": "minecraft:random_spread"
+  }
+}

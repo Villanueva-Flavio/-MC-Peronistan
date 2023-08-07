@@ -1,8 +1,10 @@
 {
   "pack": {
     "description": {
-      "text": "${mod_id} resources"
+      "text": "¡Viva el Líder!"
     },
-    "pack_format": 15
+    "pack_format": 10,
+    "forge:resource_pack_format": 12,
+    "forge:data_pack_format": 10
   }
 }
