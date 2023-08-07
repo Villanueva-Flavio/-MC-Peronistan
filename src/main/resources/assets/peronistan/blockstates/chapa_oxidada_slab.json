@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "peronistan:block/chapa_oxidada_slab"
+        },
+        "type=top": {
+            "model": "peronistan:block/chapa_oxidada_slab_top"
+        },
+        "type=double": {
+            "model": "peronistan:block/chapa_oxidada_slab_full"
+        }
+    }
+}

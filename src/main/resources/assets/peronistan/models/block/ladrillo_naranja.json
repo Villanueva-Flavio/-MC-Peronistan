@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "peronistan:block/ladrillo_naranja",
+        "particle": "peronistan:block/ladrillo_naranja"
+    }
+}
