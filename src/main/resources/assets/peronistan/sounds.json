@@ -1,0 +1,136 @@
+{
+    "cd_camioncito_vol_1": {
+        "sounds": [
+            {
+                "name": "peronistan:cd_camioncito_vol_1",
+                "stream": true
+            }
+        ]
+    },
+
+    "cd_camioncito_vol_2": {
+        "sounds": [
+            {
+                "name": "peronistan:cd_camioncito_vol_2",
+                "stream": true
+            }
+        ]
+    },
+
+    "cd_camioncito_vol_3": {
+        "sounds": [
+            {
+                "name": "peronistan:cd_camioncito_vol_3",
+                "stream": true
+            }
+        ]
+    },
+
+    "cd_camioncito_vol_4": {
+        "sounds": [
+            {
+                "name": "peronistan:cd_camioncito_vol_4",
+                "stream": true
+            }
+        ]
+    },
+
+    "cd_camioncito_vol_5": {
+        "sounds": [
+            {
+                "name": "peronistan:cd_camioncito_vol_5",
+                "stream": true
+            }
+        ]
+    },
+
+    "cd_camioncito_vol_6": {
+        "sounds": [
+            {
+                "name": "peronistan:cd_camioncito_vol_6",
+                "stream": true
+            }
+        ]
+    },
+
+    "cd_camioncito_vol_7": {
+        "sounds": [
+            {
+                "name": "peronistan:cd_camioncito_vol_7",
+                "stream": true
+            }
+        ]
+    },
+
+    "cd_himno_nacional_de_la_republica_argentina": {
+        "sounds": [
+            {
+                "name": "peronistan:cd_himno_nacional_de_la_republica_argentina",
+                "stream": true
+            }
+        ]
+    },
+
+    "cd_la_mosca_muchachos": {
+        "sounds": [
+            {
+                "name": "peronistan:cd_la_mosca_muchachos",
+                "stream": true
+            }
+        ]
+    },
+
+    "cd_la_renga_vol_1": {
+        "sounds": [
+            {
+                "name": "peronistan:cd_la_renga_vol_1",
+                "stream": true
+            }
+        ]
+    },
+
+    "cd_la_renga_vol_2": {
+        "sounds": [
+            {
+                "name": "peronistan:cd_la_renga_vol_2",
+                "stream": true
+            }
+        ]
+    },
+
+    "cd_los_palmeras_bombon_asesino": {
+        "sounds": [
+            {
+                "name": "peronistan:cd_los_palmeras_bombon_asesino",
+                "stream": true
+            }
+        ]
+    },
+
+    "cd_los_pibes_chorros_duraznito": {
+        "sounds": [
+            {
+                "name": "peronistan:cd_los_pibes_chorros_duraznito",
+                "stream": true
+            }
+        ]
+    },
+
+    "cd_sandro_rosa_rosa": {
+        "sounds": [
+            {
+                "name": "peronistan:cd_sandro_rosa_rosa",
+                "stream": true
+            }
+        ]
+    },
+
+    "cd_supermerk2_la_resaka": {
+        "sounds": [
+            {
+                "name": "peronistan:cd_supermerk2_la_resaka",
+                "stream": true
+            }
+        ]
+    }
+}

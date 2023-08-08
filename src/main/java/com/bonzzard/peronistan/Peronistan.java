@@ -32,7 +32,7 @@ import org.slf4j.Logger;
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModCreativeModTabs.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
-        ModItems.register(modEventBus);
+        ITEMS.register(modEventBus);
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
