@@ -7,11 +7,11 @@
 
 <h3>Advertencia</h3>
 
-<p> Este mod no tiene ninguna intención de hacer propaganda política u ofensa directa hacia algún grupo de personas, los autores somos de la misma nación representada de manera estereotípica para identificar y aprovechar las características que hacen a este país divertido, así que divertite y si te interesa algún aporte, no dudes en darnos estrellas, compartir, hacer PRs de aportes, o si querés hacer fork, bienvenido seas!, la cultura es libre para compartir entre todos. Por otra parte, este es mi primer proyecto en Java, así que decidí que sea un mod argentino de Minecraft.
+<p> Este mod no tiene ninguna intención de hacer propaganda política u ofensa directa hacia algún grupo de personas más bien tiene una intención satírica, los autores somos de la misma nación representada de manera estereotípica para identificar y aprovechar las características que hacen a este país divertido, así que divertite y si te interesa algún aporte, no dudes en darnos estrellas, compartir, hacer PRs de aportes, o si querés hacer fork, bienvenido seas!, la cultura es libre para compartir entre todos. Por otra parte, este es mi primer proyecto en Java, así que decidí que sea un mod argentino de Minecraft.
 
 <h3>Disclaimer</h3>
 
-<p> This mod does not have any intention of any kind of political propaganda or an offense to any group of people, we the authors are from the same nation depicted in a stereotipical way to identify and take advantage of the characteristics of what make this country fun, so enjoy and if you're interested in making some contribution, don't doubt about giving us stars, sharing, and making PRs of contributions, and if you want to make a fork, you're welcome, the culture is free to share with everyone. On the other hand, this is my first Java project, so i decided to make an argentinian Minecraft mod. </p>
+<p> This mod does not have any intention of any kind of political propaganda or an offense to any group of people it have rather a satirical intention, we the authors are from the same nation depicted in a stereotipical way to identify and take advantage of the characteristics of what make this country fun, so enjoy and if you're interested in making some contribution, don't doubt about giving us stars, sharing, and making PRs of contributions, and if you want to make a fork, you're welcome, the culture is free to share with everyone. On the other hand, this is my first Java project, so i decided to make an argentinian Minecraft mod. </p>
 
 
 <h2 align="center"> Contents / Contenidos <h2>
