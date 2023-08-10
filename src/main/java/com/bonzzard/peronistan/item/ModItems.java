@@ -14,9 +14,14 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Peronistan.MODID);
+
+
+    
     public static final RecordItem CD = new RecordItem(9, ModSounds.CD_CAMIONCITO_VOL_1, new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 23);
 
-    public static final RegistryObject<Item> CD_CAMIONCITO_VOL_1_ITEM = ITEMS.register("peronistan:cd_camioncito_vol_1", () -> new RecordItem(9, ModSounds.CD_CAMIONCITO_VOL_1, new Item.Properties(), 23));
+    public static final RegistryObject<Item> CD_CAMIONCITO_VOL_1_ITEM = ITEMS.register("peronistan:cd_camioncito_vol_1", () -> CD);
+
+    // public static final RegistryObject<Item> CD_CAMIONCITO_VOL_1_ITEM = ITEMS.register("peronistan:cd_camioncito_vol_1", () -> new RecordItem(9, ModSounds.CD_CAMIONCITO_VOL_1, new Item.Properties(), 23));
 
     //public static final RegistryObject<Item> CD_CAMIONCITO_VOL_1             = ITEMS.register("cd_camioncito_vol_1",             () -> new Item(new Item.Properties()));
     //public static final RegistryObject<Item> CD_CAMIONCITO_VOL_2             = ITEMS.register("cd_camioncito_vol_2",             () -> new Item(new Item.Properties()));
