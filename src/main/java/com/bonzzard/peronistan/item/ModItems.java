@@ -1,7 +1,11 @@
 package com.bonzzard.peronistan.item;
 
 import com.bonzzard.peronistan.Peronistan;
+import com.bonzzard.peronistan.sound.ModSounds;
+
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.RecordItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -17,7 +21,11 @@ public class ModItems {
     //public static final RegistryObject<SoundEvent> CD_CAMIONCITO_VOL_1_EVENT = registerSoundEvent("cd_camioncito_vol_1");
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Peronistan.MODID);
 
-    public static final RegistryObject<Item> CD_CAMIONCITO_VOL_1             = ITEMS.register("cd_camioncito_vol_1",             () -> new Item(new Item.Properties()));
+    public static final RecordItem CD = new RecordItem(9, ModSounds.CD_CAMIONCITO_VOL_1, new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 23);
+
+    public static final RegistryObject<Item> CD_CAMIONCITO_VOL_1_ITEM = ITEMS.register("cd_camioncito_vol_1", () -> new RecordItem(9, ModSounds.CAMIONCITO_VOL_1, new Item.Properties()));
+
+    //public static final RegistryObject<Item> CD_CAMIONCITO_VOL_1             = ITEMS.register("cd_camioncito_vol_1",             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CD_CAMIONCITO_VOL_2             = ITEMS.register("cd_camioncito_vol_2",             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CD_CAMIONCITO_VOL_3             = ITEMS.register("cd_camioncito_vol_3",             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CD_CAMIONCITO_VOL_4             = ITEMS.register("cd_camioncito_vol_4",             () -> new Item(new Item.Properties()));
