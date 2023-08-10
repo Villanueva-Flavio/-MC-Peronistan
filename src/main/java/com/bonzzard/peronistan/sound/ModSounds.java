@@ -29,19 +29,10 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> CD_ROSA_ROSA_SANDRO = registerSoundEvent("cd_rosa_rosa_sandro");
     public static final RegistryObject<SoundEvent> CD_SUPERMERK2_LA_RESAKA = registerSoundEvent("cd_supermerk2_la_resaka");
 
-
-    // Aparentemente la forma correcta de registrar un soundevent - Gracias @Kaupenjoe
     private static RegistryObject<SoundEvent> registerSoundEvent(String name) {
         ResourceLocation id = new ResourceLocation(Peronistan.MODID, name);
         return SOUND_EVENTS.register(name, () -> SoundEvent.createVariableRangeEvent(id));
     }
-
-    /*  Esto esta deprecado ya que no existe Sound Event constructor, y register asi no funciona
-        private static RegistryObject<SoundEvent> registerSoundEvent(String name){
-            return SOUND_EVENTS.register(name, () -> new SoundEvent(new ResourceLocation(Peronistan.MODID, name)));
-        }
-    */
-
 
     public static void register(IEventBus eventBus){
         SOUND_EVENTS.register(eventBus);

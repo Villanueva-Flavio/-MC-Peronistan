@@ -13,17 +13,10 @@ import net.minecraftforge.registries.RegistryObject;
 
 
 public class ModItems {
-    /* public static final Item CD_CAMIONCITO_VOL_1 = register("cd_camioncito_vol_1",
-      new MusicDiscItem(9, PeronistanSounds.CAMIONCITO_VOL_1), new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 23); */
-
-    //public static final DeferredRegister<SoundEvent> SOUND_EVENTS = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, Peronistan.MODID);
-
-    //public static final RegistryObject<SoundEvent> CD_CAMIONCITO_VOL_1_EVENT = registerSoundEvent("cd_camioncito_vol_1");
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Peronistan.MODID);
-
     public static final RecordItem CD = new RecordItem(9, ModSounds.CD_CAMIONCITO_VOL_1, new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 23);
 
-    public static final RegistryObject<Item> CD_CAMIONCITO_VOL_1_ITEM = ITEMS.register("cd_camioncito_vol_1", () -> new RecordItem(9, ModSounds.CD_CAMIONCITO_VOL_1, new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 23));
+    public static final RegistryObject<Item> CD_CAMIONCITO_VOL_1_ITEM = ITEMS.register("peronistan:cd_camioncito_vol_1", () -> new RecordItem(9, ModSounds.CD_CAMIONCITO_VOL_1, new Item.Properties(), 23));
 
     //public static final RegistryObject<Item> CD_CAMIONCITO_VOL_1             = ITEMS.register("cd_camioncito_vol_1",             () -> new Item(new Item.Properties()));
     //public static final RegistryObject<Item> CD_CAMIONCITO_VOL_2             = ITEMS.register("cd_camioncito_vol_2",             () -> new Item(new Item.Properties()));
@@ -45,15 +38,3 @@ public class ModItems {
       ITEMS.register(eventBus);
     }
 }
-
-
-//public class ModItems {
-//    public static final DeferredRegister<Item> ITEMS = 
-//        DeferredRegister.create(ForgeRegistries.ITEMS, Peronistan.MODID);
-//      /*public static final Item MUSIC_DISC_13 = registerItem("music_disc_13", new RecordItem(1, SoundEvents.MUSIC_DISC_13, (new Item.Properties()).stacksTo(1).rarity(Rarity.RARE), 178));*/
-        //static final RegistryObject<Item> CD_CAMIONCITO_VOL_1             = ITEMS.register("cd_camioncito_vol_1",             () -> new Item(new Item.Properties()));*/
-//
-//    public static void register(IEventBus eventBus){
-//        ITEMS.register(eventBus);
-//    }
-//}
