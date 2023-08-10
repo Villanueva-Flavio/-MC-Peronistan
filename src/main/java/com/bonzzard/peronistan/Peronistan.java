@@ -1,7 +1,7 @@
 package com.bonzzard.peronistan;
 
-import com.bonzzard.peronistan.item.ModCreativeModTabs;
 import com.bonzzard.peronistan.item.ModItems;
+import com.bonzzard.peronistan.sound.ModSounds;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
@@ -12,9 +12,7 @@ import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -30,12 +28,15 @@ import org.slf4j.Logger;
 
     public Peronistan(){
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        ModCreativeModTabs.register(modEventBus);
+        ModItems.register(modEventBus);
+        ModSounds.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
         ITEMS.register(modEventBus);
+        
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+
     }
 
     private void commonSetup(final FMLCommonSetupEvent event){
@@ -62,16 +63,19 @@ import org.slf4j.Logger;
         }
     }
 
+
+    // EVENTOS DE PROCESOS
+
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event){
-        LOGGER.info("Peronistan is loading on the server!");
+        LOGGER.info("[Peronistan] loading on the server!");
     }
 
     @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event){
-            LOGGER.info("Client event checker");
+            LOGGER.info("[Peronistan] Client event checker");
         }
     }
 }
