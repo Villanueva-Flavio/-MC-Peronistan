@@ -83,7 +83,7 @@
         "sounds": [
             {
                 "subtitle": "La Mosca Muchachos",
-                "name": "peronistan:cd_la_mosca_muchachos",a
+                "name": "peronistan:cd_la_mosca_muchachos",
                 "stream": true
             }
         ]
@@ -143,6 +143,8 @@
         "sounds": [
             {
                 "name": "peronistan:cd_supermerk2_la_resaka",
+                "subtitle": "Supermerk2 - La Resaka",
+                "attenuation_distance": 16,
                 "stream": true
             }
         ]
