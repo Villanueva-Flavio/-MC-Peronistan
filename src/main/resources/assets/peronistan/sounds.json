@@ -2,6 +2,7 @@
     "cd_camioncito_vol_1": {
         "sounds": [
             {
+                "subtitle": "Camioncito Vol. 1",
                 "name": "peronistan:cd_camioncito_vol_1",
                 "stream": true
             }
@@ -11,6 +12,7 @@
     "cd_camioncito_vol_2": {
         "sounds": [
             {
+                "subtitle": "Camioncito Vol. 2",
                 "name": "peronistan:cd_camioncito_vol_2",
                 "stream": true
             }
@@ -20,6 +22,7 @@
     "cd_camioncito_vol_3": {
         "sounds": [
             {
+                "subtitle": "Camioncito Vol. 3",
                 "name": "peronistan:cd_camioncito_vol_3",
                 "stream": true
             }
@@ -29,6 +32,7 @@
     "cd_camioncito_vol_4": {
         "sounds": [
             {
+                "subtitle": "Camioncito Vol. 4",
                 "name": "peronistan:cd_camioncito_vol_4",
                 "stream": true
             }
@@ -38,6 +42,7 @@
     "cd_camioncito_vol_5": {
         "sounds": [
             {
+                "subtitle": "Camioncito Vol. 5",
                 "name": "peronistan:cd_camioncito_vol_5",
                 "stream": true
             }
@@ -47,6 +52,7 @@
     "cd_camioncito_vol_6": {
         "sounds": [
             {
+                "subtitle": "Camioncito Vol. 6",
                 "name": "peronistan:cd_camioncito_vol_6",
                 "stream": true
             }
@@ -56,6 +62,7 @@
     "cd_camioncito_vol_7": {
         "sounds": [
             {
+                "subtitle": "Camioncito Vol. 7",
                 "name": "peronistan:cd_camioncito_vol_7",
                 "stream": true
             }
@@ -65,6 +72,7 @@
     "cd_himno_nacional_de_la_republica_argentina": {
         "sounds": [
             {
+                "subtitle": "Himno de la república Argentina",
                 "name": "peronistan:cd_himno_nacional_de_la_republica_argentina",
                 "stream": true
             }
@@ -74,6 +82,7 @@
     "cd_la_mosca_muchachos": {
         "sounds": [
             {
+                "subtitle": "La Mosca Muchachos",
                 "name": "peronistan:cd_la_mosca_muchachos",
                 "stream": true
             }
@@ -83,6 +92,7 @@
     "cd_la_renga_vol_1": {
         "sounds": [
             {
+                "subtitle": "La Renga Vol. 1",
                 "name": "peronistan:cd_la_renga_vol_1",
                 "stream": true
             }
@@ -92,6 +102,7 @@
     "cd_la_renga_vol_2": {
         "sounds": [
             {
+                "subtitle": "La Renga Vol. 2",
                 "name": "peronistan:cd_la_renga_vol_2",
                 "stream": true
             }
@@ -101,6 +112,7 @@
     "cd_los_palmeras_bombon_asesino": {
         "sounds": [
             {
+                "subtitle": "Los Palmeras - Bombón Asesino",
                 "name": "peronistan:cd_los_palmeras_bombon_asesino",
                 "stream": true
             }
@@ -110,6 +122,7 @@
     "cd_los_pibes_chorros_duraznito": {
         "sounds": [
             {
+                "subtitle": "Los Pibes Chorros - Duraznito",
                 "name": "peronistan:cd_los_pibes_chorros_duraznito",
                 "stream": true
             }
@@ -119,6 +132,7 @@
     "cd_sandro_rosa_rosa": {
         "sounds": [
             {
+                "subtitle": "Sandro - Rosa Rosa",
                 "name": "peronistan:cd_sandro_rosa_rosa",
                 "stream": true
             }
