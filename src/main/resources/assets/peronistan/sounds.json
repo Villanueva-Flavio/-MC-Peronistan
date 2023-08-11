@@ -143,7 +143,7 @@
         "sounds": [
             {
                 "name": "peronistan:cd_supermerk2_la_resaka",
-                "subtitle": "Supermerk2 - La Resaka test",
+                "subtitle": "Supermerk2 - La Resaka",
                 "attenuation_distance": 16,
                 "stream": true
             }
