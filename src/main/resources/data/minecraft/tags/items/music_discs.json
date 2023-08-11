@@ -1,5 +1,19 @@
 {
     "values": [
-      "peronistan:cd_camioncito_vol_1"
+            "peronistan:cd_camioncito_vol_1",
+            "peronistan:cd_camioncito_vol_2",
+            "peronistan:cd_camioncito_vol_3",
+            "peronistan:cd_camioncito_vol_4",
+            "peronistan:cd_camioncito_vol_5",
+            "peronistan:cd_camioncito_vol_6",
+            "peronistan:cd_camioncito_vol_7",
+            "peronistan:cd_himno_nacional_de_la_republica_argentina",
+            "peronistan:cd_la_mosca_muchachos",
+            "peronistan:cd_la_renga_vol_1",
+            "peronistan:cd_la_renga_vol_2",
+            "peronistan:cd_los_palmeras_bombon_asesino",
+            "peronistan:cd_los_pibes_chorros_duraznito",
+            "peronistan:cd_sandro_rosa_rosa",
+            "peronistan:cd_supermerk2_la_resaka"
     ]
 }
