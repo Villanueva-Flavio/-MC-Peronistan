@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "peronistan:ladrillo_naranja",
+        "peronistan:ladrillo_naranja_slab",
+        "peronistan:chapa_oxidada",
+        "peronistan:chapa_oxidada_slab"
+    ]
+}

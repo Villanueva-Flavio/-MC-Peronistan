@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "peronistan:block/ladrillo_naranja_slab"
+        },
+        "type=top": {
+            "model": "peronistan:block/ladrillo_naranja_slab_top"
+        },
+        "type=double": {
+            "model": "peronistan:block/ladrillo_naranja_slab_full"
+        }
+    }
+}
