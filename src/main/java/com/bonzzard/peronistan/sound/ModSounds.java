@@ -10,8 +10,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModSounds {
-    public static final DeferredRegister<SoundEvent> SOUND_EVENTS = 
-        DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, Peronistan.MODID);
+    public static final DeferredRegister<SoundEvent> SOUND_EVENTS = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, Peronistan.MODID);
 
     public static final RegistryObject<SoundEvent> CD_CAMIONCITO_VOL_1             = registerSoundEvent("cd_camioncito_vol_1");
     public static final RegistryObject<SoundEvent> CD_CAMIONCITO_VOL_2             = registerSoundEvent("cd_camioncito_vol_2");
